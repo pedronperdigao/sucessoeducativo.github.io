@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="./css/estilo.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <title>Sucesso Educativo</title>
+<meta name="description"
+content="Sucesso Educativo: blog focado na promoção do sucesso escolar, que seja tratado como prioridade e nos fatores que influenciam o sucesso educativo." />
+<meta name="keywords"
+content="sucesso educativo, educação, sucesso escolar, escolas, professores" />
+
+  <style>
+
+  /* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+
+  body{
+    background: #a9a9a9;
+  }
+
+  a {
+    text-decoration: none;
+    color: #ffdf5e;
+  }
+
+  a:hover{
+    color: white;
+    text-decoration: none;
+  }
+
+
+  </style>
+
+</head>
+<body>
+  <div id="demo" class="carousel slide" data-ride="carousel">
+
+    <!-- Indicators -->
+    <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+
+    <!-- The slideshow -->
+    <div class="carousel-inner">
+    <div class="carousel-item active">
+    <a href="index.html"><img src="./imagens/CapaMandela.png" alt="Mandela"></a>
+    </div>
+    <div class="carousel-item">
+      <a href="index.html"><img src="./imagens/Mandela.png" alt="Malala"></a>
+    </div>
+    <div class="carousel-item">
+      <a href="index.html"><img src="./imagens/obama2.png" alt="Obama"></a>
+    </div>
+  </div>
+
+    <!-- Left and right controls -->
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+   <span class="carousel-control-prev-icon"></span>
+ </a>
+ <a class="carousel-control-next" href="#demo" data-slide="next">
+   <span class="carousel-control-next-icon"></span>
+ </a>
+
+</div>
+
+<div class="sticky-top">
+  <ul class="nav">
+    <li><a href="autarcas.html">autarcas</a></li>
+    <li><a href="academicos.html">académicos</a></li>
+    <li><a href="politicas.html">políticas</a></li>
+  </ul>
+
+</div>
+<article class="">
+<div class="content">
+
+  <div class="post">
+    <p class="post-date"> Brevemente</p>
+    <h3 class="post-title"></h3>
+    <div class="post-content">
+      <p>Em construção</p>
+      <a href="" class="lermais"></a>
+    </div>
+  </div>
+
+
+
+
+  </article>
+
+  </div>
+
+  <footer class="rodape">
+    <div class="column">
+      <p>
+        <a href="https://twitter.com/pedronperdigao">twitter</a>
+        <br>
+        <a href="https://www.instagram.com/sucessoeducativo/">instagram</a>
+    </p>
+    </div>
+    <div class="column">
+      <p>&copy Todos os direitos reservados</p>
+  </div>
+  </footer>
+
+  <script>
+  window.onscroll = function() {myFunction()};
+
+  var navbar = document.getElementById("navbar");
+  var sticky = navbar.offsetTop;
+
+  function myFunction() {
+    if (window.pageYOffset >= sticky) {
+      navbar.classList.add("sticky")
+    } else {
+      navbar.classList.remove("sticky");
+    }
+  }
+  </script>
+
+</body>
+</html>
