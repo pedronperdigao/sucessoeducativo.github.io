@@ -82,6 +82,10 @@ cinza: #a9a9a9 **/
    color: #333;
  }
 
+.h1titulo{
+  text-indent: -9999px;
+}
+
 p {
   line-height: 1.5;
 }
